@@ -7,7 +7,7 @@ import { Hero } from './hero';
 
 @Component({
     moduleId: module.id,
-    selector: 'my-hero-detail',
+    selector: 'hero-details',
     templateUrl: './hero-details.component.html'
 })
 
@@ -30,5 +30,4 @@ export class HeroDetailComponent implements OnInit {
     goBack(): void {
         this.location.back();
     }
-    //Lets see what happens if i change something
 }
