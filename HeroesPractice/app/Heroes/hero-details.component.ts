@@ -13,7 +13,6 @@ import { Hero } from './hero';
 })
 
 export class HeroDetailComponent implements OnInit {
-
     constructor(
         private heroService: HeroService,
         private route: ActivatedRoute,
