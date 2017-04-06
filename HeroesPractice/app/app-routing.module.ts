@@ -11,8 +11,6 @@ const routes: Routes = [
   { path: 'heroes',     component: HeroesComponent }
 ];
 
-//Adding some comments to test add, commit, push
-
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],
   exports: [ RouterModule ]
