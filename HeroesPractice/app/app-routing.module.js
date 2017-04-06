@@ -19,6 +19,7 @@ var routes = [
     { path: 'details/:id', component: hero_details_component_1.HeroDetailComponent },
     { path: 'heroes', component: heroes_component_1.HeroesComponent }
 ];
+//Adding some comments to test add, commit, push
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
     }

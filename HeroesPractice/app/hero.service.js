@@ -39,6 +39,7 @@ var HeroService = (function () {
         return this.http
             .put(url, JSON.stringify(hero), { headers: this.headers })
             .toPromise()
+            .then(function () { return hero; })
             .catch(this.handleError);
     };
     HeroService.prototype.create = function (name) {
