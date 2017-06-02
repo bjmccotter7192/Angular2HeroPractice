@@ -8,7 +8,6 @@ import { AddBillComponent } from './add-bill/add-bill.component';
 import { RemoveBillComponent } from './remove-bill/remove-bill.component';
 import { UpdateBillComponent } from './update-bill/update-bill.component';
 import { SearchBillsComponent } from './search-bills/search-bills.component';
-import { BillServiceComponent } from './bill-service/bill-service.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +15,7 @@ import { BillServiceComponent } from './bill-service/bill-service.component';
     AddBillComponent,
     RemoveBillComponent,
     UpdateBillComponent,
-    SearchBillsComponent,
-    BillServiceComponent
+    SearchBillsComponent
   ],
   imports: [
     BrowserModule,
